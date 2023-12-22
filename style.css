@@ -25,13 +25,14 @@ body, html {
     top: 43.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 16px 28px;
+    padding: 12px 22px;
     background-color: rgb(173, 0, 46);
     border-radius: 10px;
     color: white;
     border: none;
     cursor: pointer;
     z-index: 1; /* Ensures the button is above the image */
+    font-size: 20px;
 }
 
 .modal {
