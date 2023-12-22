@@ -25,14 +25,28 @@ body, html {
     top: 43.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 12px 22px;
+    padding: 12px 22px; /* Default padding */
     background-color: rgb(173, 0, 46);
     border-radius: 10px;
     color: white;
     border: none;
     cursor: pointer;
     z-index: 1; /* Ensures the button is above the image */
-    font-size: 20px;
+    font-size: 20px; /* Default font size */
+}
+
+/* Other styles... */
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .overlay-button {
+        font-size: 16px; /* Smaller font size for mobile */
+        padding: 12px 22px; /* Smaller padding for mobile */
+    }
+
+    .modal-content {
+        width: 80%; /* Adjust modal width for smaller screens */
+    }
 }
 
 .modal {
